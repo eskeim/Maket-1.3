@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./menu.css" />
+    <style type="text/css"></style>
+    <title>Menu</title>
+  </head>
+  <body>
+    <aside class="menu">
+      <div class="header">
+        <ul class="header__list">
+          <li class="header__item">
+            <button type="button" aria-label="Иконка боковая" class="btn">
+              <span class="btn-img"
+                ><img src="./img/iconburger.svg" alt="#"
+              /></span>
+            </button>
+          </li>
+          <li class="header__item">
+            <a href="./index.html" class="logo"
+              ><img src="./img/header__logo.svg" alt="Логотип"
+            /></a>
+          </li>
+          <li class="header__item">
+            <button type="button" aria-label="Иконка поиска" class="btn">
+              <span class="btn-img"
+                ><img src="./img/iconsearch.svg" alt="#"
+              /></span>
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link nav__link--active">Ремонт техники</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Услуги и сервисы</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Корпоративным клиентам</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Продавцам техники</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Партнерам</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Производителям</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Наши сервисные центры</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="menu__footer">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <button type="button" aria-label="Иконка звонка" class="btn">
+              <span class="btn-img">
+                <img src="./img/iconcall.svg" alt="#" />
+              </span>
+            </button>
+            <button type="button" aria-label="Иконка чата" class="btn">
+              <span class="btn-img">
+                <img src="./img/iconchat.svg" alt="#" />
+              </span>
+            </button>
+            <button
+              type="button"
+              aria-label="Иконка личный кабинет"
+              class="btn"
+            >
+              <span class="btn-img">
+                <img src="./img/iconprofile.svg" alt="#" />
+              </span>
+            </button>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link-email" aria-label="Почта"
+              >mail@cps.com</a
+            >
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link-phone" aria-label="Номер телефона"
+              >8 800 890 8900</a
+            >
+          </li>
+          <li class="footer__item">
+            <form method="get" action="#" class="lang">
+              <input
+                type="radio"
+                name="ru"
+                id="ru"
+                class="lang__item"
+                checked
+              />
+              <label for="ru" class="lang__text">RU</label>
+
+              <input type="radio" name="en" id="en" class="lang__item" />
+              <label for="en" class="lang__text">EN</label>
+
+              <input type="radio" name="ch" id="ch" class="lang__item" />
+              <label for="ch" class="lang__text">CH</label>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </aside>
+  </body>
+</html>
